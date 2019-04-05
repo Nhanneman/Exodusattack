@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.web {
+    background-color: black;
+}
+
+/*
+font-family: 'Special Elite', cursive;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Major Mono Display', monospace;
+*/
+
+.main {
+    width: 100%;
+}
+
+.main-title {
+    margin: auto;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    text-align: end;
+    padding-right: 1em;
+    color: #e01414;
+    position: sticky;
+    top: 0;
+}
+
+.main-image {
+    width: 100%;
+    padding: 1em;
+    height: 80vh;
+}
+
+.nav-bar a:link {
+    color: red;
+    font-size: 2em;
+}
+
+.nav-bar a:hover {
+    color: tomato;
+    font-size: 2.em;
+}
+
+.nav-bar a:visited {
+    color: red;
+    font-size: 2em;
+}
+
+.nav-bar {
+    background-color: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: 'Special Elite', cursive;
+    padding: 0 1em 1em 1em;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.web nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-bar .subnav-bar {
+    display: none;
+    font-size: 1em;
+}
+
+.nav-bar li:hover .subnav-bar {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.discography h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.discography ul {
+    display: flex;
+    flex-flow: nowrap row;
+}
+
+.discography li img {
+    width: 100%;
+}
+
+.biography h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.biography p {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 1.5em;
+}
+
+.listen {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    text-align: center;
+    background-color: black;
+}
+
+.listen h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 1em;
+    text-align: center;
+}
+
+.members h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+.spotify {
+    display: inline-block;
+}
+
+.footers {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3em;
+}
+
+.discography {
+    margin: 10em 0;
+}
+
+.biography {
+    margin: 5em 0;
+}
+
+.listen {
+    margin: 5em 0;
+}
+
+.members {
+    margin: 5em 0;
+}
+
+.footers {
+    margin: 5em 0;
+}
